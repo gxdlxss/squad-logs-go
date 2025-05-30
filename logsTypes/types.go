@@ -140,6 +140,13 @@ type PlayerWounded struct {
 	Weapon                   string
 }
 
+type PlayerQueued struct {
+	Raw     string
+	Time    string
+	ChainID string
+	EosID   string
+}
+
 type RoundEnded struct {
 	Raw                      string
 	Time                     string
